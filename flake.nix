@@ -12,5 +12,5 @@
         - Basically `rustup doc` but without rustup and with whatever version of rust is used
         '';
     };
-  }
+  };
 }
