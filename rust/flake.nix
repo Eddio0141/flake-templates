@@ -39,7 +39,10 @@
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
               (rust.override {
-                extensions = [ "rust-analyzer" ];
+                extensions = [
+                  "rust-analyzer"
+                  "rust-src"
+                ];
               })
               rust-doc
             ];
